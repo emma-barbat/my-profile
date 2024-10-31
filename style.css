@@ -1,0 +1,56 @@
+
+/* Colors and fonts*/
+body {
+	background-color: white;
+	color: #D14D72;
+	font-family : Britannica;
+}
+
+h1,h2 {
+	color: #AF1740;
+	font-family: helvetica;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+h1 {
+	font-weight: 40;
+	letter-spacing: 2px;
+	font-size: 45px;
+}
+
+a {
+	text-decoration: ,none;
+	color:#D14D72 ;
+}
+a:hover {
+	color: #3B1E54;
+}
+
+/* Cuqtom design with class */
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+
+
+@media (max-width: 500px) {
+	.container {
+	  width: 400px;
+	}
+}
+
+
+.card-white {
+	background-color: #FEF2F4;
+	padding : 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
